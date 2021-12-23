@@ -5,6 +5,8 @@ def experiment(example: int) -> None:
 
 def another_experimental_feature():
     return
+def experiment(i: int) -> int:
+    return i
 
 def main():
     return
