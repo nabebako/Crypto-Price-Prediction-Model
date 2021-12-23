@@ -1,4 +1,6 @@
-def experiment():
+def experiment(example: int) -> None:
+    print(example)
+    
     return
 
 def another_experimental_feature():
