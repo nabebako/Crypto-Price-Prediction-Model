@@ -41,3 +41,15 @@ Explanation of the data, what data points are in your data set?  How was the dat
 Analysis of data: show graphs and calculations.
 
 Conclusions:  which model performs the best.  How could you improve your project? What lessons did you learn?
+
+
+---
+# Coins used for analysis
+
+| Name           |
+| -------------- |
+| ADA (Cardano)  |
+| Ehter(Ethereum)|
+| Solana         |
+| Presearch      |
+|   Filecoin     |
