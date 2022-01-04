@@ -24,12 +24,20 @@ Choose 3-4 mathematical prediction models and a control:
 - ADABOOST Regression - I have heard of state of the art forecasting using this method.  I’m not sure how complicated this will be to implement.
 
 
-Start implementing each model in python.\n
-Use models to generate 1-2 weeks of predictions.\n
-After 1-2 weeks have passed, analyze how well each model did at predicting the value.\n
-Create a Google Slides presentation.  Your presentation should include:\n
-Overview of the project, why it is interesting, how it can be useful in the real world.\n
-Explanation of how each model you used in the project works.\n
-Explanation of the data, what data points are in your data set?  How was the data collected?\n
-Analysis of data: show graphs and calculations.\n
-Conclusions:  which model performs the best.  How could you improve your project? What lessons did you learn?\n
+Start implementing each model in python.
+
+Use models to generate 1-2 weeks of predictions.
+
+After 1-2 weeks have passed, analyze how well each model did at predicting the value.
+
+Create a Google Slides presentation.  Your presentation should include:
+
+Overview of the project, why it is interesting, how it can be useful in the real world.
+
+Explanation of how each model you used in the project works.
+
+Explanation of the data, what data points are in your data set?  How was the data collected?
+
+Analysis of data: show graphs and calculations.
+
+Conclusions:  which model performs the best.  How could you improve your project? What lessons did you learn?
