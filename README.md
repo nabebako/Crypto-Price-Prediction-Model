@@ -1,4 +1,4 @@
-# Cryptocurrency Price Prediction Model
+# Cryptocurrency Price Prediction Model Overview
 This is a school project for year 11 computer class:
 Choose one or several of your favorite cryptocurrencies.  Develop a couple of mathematical models in python which attempt to predict the future and guess the prices of these cryptocurrency.  After your models have been developed, run your program every day for up to one week.  Collect data in regards to how close each model was to correctly predicting the cryptocurrency price.  Write a report discussing the pros and cons of your models.  Discuss which model performed the best. 
 Now, I don't really know how to write a readme.md, so this is what we got.
@@ -10,7 +10,9 @@ Now, I don't really know how to write a readme.md, so this is what we got.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-# Cryptoprice modelling
+-------
+
+# Cryptoprice modelling Objective
 
 Find data, it might be more interesting to find data for less popular coins.  A lot of sophisticated models will already exist for Bitcoin/ Ethereum.   It would be more exciting to model coins like ravencoin or presearch.  It is important to collect enough data.  It will probably be best to find/collect several months worth of data and then do weekly forecasting.
 
