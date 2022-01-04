@@ -10,7 +10,7 @@ Now, I don't really know how to write a readme.md, so this is what we got.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-Cryptoprice modelling
+* Cryptoprice modelling
 
 Find data, it might be more interesting to find data for less popular coins.  A lot of sophisticated models will already exist for Bitcoin/ Ethereum.   It would be more exciting to model coins like ravencoin or presearch.  It is important to collect enough data.  It will probably be best to find/collect several months worth of data and then do weekly forecasting.
 
