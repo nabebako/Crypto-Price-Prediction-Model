@@ -32,15 +32,15 @@ After 1-2 weeks have passed, analyze how well each model did at predicting the v
 
 Create a Google Slides presentation.  Your presentation should include:
 
-Overview of the project, why it is interesting, how it can be useful in the real world.
+1.Overview of the project, why it is interesting, how it can be useful in the real world.
 
-Explanation of how each model you used in the project works.
+2.Explanation of how each model you used in the project works.
 
-Explanation of the data, what data points are in your data set?  How was the data collected?
+3.Explanation of the data, what data points are in your data set?  How was the data collected?
 
-Analysis of data: show graphs and calculations.
+4.Analysis of data: show graphs and calculations.
 
-Conclusions:  which model performs the best.  How could you improve your project? What lessons did you learn?
+5.Conclusions:  which model performs the best.  How could you improve your project? What lessons did you learn?
 
 
 ---
