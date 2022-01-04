@@ -46,6 +46,5 @@ Create a Google Slides presentation.  Your presentation should include:
 | -------------- |
 | ADA (Cardano)  |
 | Ehter(Ethereum)|
+| Dogecoin       |
 | Solana         |
-| Presearch      |
-|   Filecoin     |
