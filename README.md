@@ -48,3 +48,5 @@ Create a Google Slides presentation.  Your presentation should include:
 | Ehter(Ethereum)|
 | Dogecoin       |
 | Solana         |
+
+Gathered from <a href = "https://www.coindesk.com/">CoinDesk</a>
