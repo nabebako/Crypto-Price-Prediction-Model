@@ -49,4 +49,4 @@ Create a Google Slides presentation.  Your presentation should include:
 | Dogecoin       |
 | Solana         |
 
-Gathered from <a href = "https://www.coindesk.com/">CoinDesk</a>
+Data gathered from <a href = "https://www.coindesk.com/">CoinDesk</a>
