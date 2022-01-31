@@ -17,11 +17,11 @@ Choose 3-4 mathematical prediction models and a control:
 
 - KNN Regression - We learned how to implement the knn algorithm in class, you can actually use this algorithm to predict the future.
 
-- Facebook’s Prophet (local Bayesian structural time series model) - This is a python package that you can install.  
+- Facebook's Prophet (local Bayesian structural time series model) - This is a python package that you can install.  
 
 - ARIMA - Auto Regressive Integrated Moving Average.  An example.
 
-- ADABOOST Regression - I have heard of state of the art forecasting using this method.  I’m not sure how complicated this will be to implement.
+- ADABOOST Regression - I have heard of state of the art forecasting using this method.  I'm not sure how complicated this will be to implement.
 
 
 Start implementing each model in python.
