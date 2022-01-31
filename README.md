@@ -40,13 +40,15 @@ Create a Google Slides presentation.  Your presentation should include:
 
 
 ---
-# Coins used for analysis
+# Analysis Results
 
-| Name           |
-| -------------- |
-| ADA (Cardano)  |
-| Ehter(Ethereum)|
-| Dogecoin       |
-| Solana         |
+Mean Absolute Percentage Error Table
+
+| Coin                  | ADA                   | ETH                   | DOGE                  | SOL                   |
+| --------------------- | --------------------- | --------------------- | --------------------- | --------------------- |
+| ARIMA                 | 3.46 %                | 4.0 %                 | 3.62 %                | Nan                   |
+| Polynomial Regression | -                     | 6.82 %                | -                     | -                     |
+| More                  | on                    | the                   | way                   | .                     |
+
 
 Data gathered from <a href = "https://www.coindesk.com/">CoinDesk</a>
