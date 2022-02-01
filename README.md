@@ -48,6 +48,7 @@ Mean Absolute Percentage Error Table
 | --------------------- | --------------------- | --------------------- | --------------------- | --------------------- |
 | ARIMA                 | 3.46 %                | 4.0 %                 | 3.62 %                | Nan                   |
 | Polynomial Regression | -                     | 6.82 %                | -                     | -                     |
+| KNN Regression        | -                     | -                     | -                     | -                     |
 | More                  | on                    | the                   | way                   | .                     |
 
 
