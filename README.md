@@ -1,11 +1,10 @@
 # Cryptocurrency Price Prediction Model Overview
-This is a school project for year 11 computer class:
-Choose one or several of your favorite cryptocurrencies.  Develop a couple of mathematical models in python which attempt to predict the future and guess the prices of these cryptocurrency.  After your models have been developed, run your program every day for up to one week.  Collect data in regards to how close each model was to correctly predicting the cryptocurrency price.  Write a report discussing the pros and cons of your models.  Discuss which model performed the best. 
-> Now, I don't really know how to write a readme.md, so this is what we got.
+This is a high school project for year 11 computer class:
+choose one or several of your favorite cryptocurrencies.  Develop a couple of mathematical models in python which attempt to predict the future prices of these cryptocurrencies.  After your models have been developed, run your program every day for up to one week.  Collect data in regards to how close each model was to correctly predicting the cryptocurrency price.  Write a report discussing the pros and cons of your models.  Discuss which model performed the best.
 
 -------
 
-# Cryptoprice modelling Objective
+# Cryptoprice Modelling Objective
 
 We will try to assert the accuracy of various models when doing analysis on crypto prices. We had gathered four datasets from <a href = "https://www.coindesk.com">CoinDesk</a>: ADA, ETH, DOGE, and SOL, each having differnt trends and volitility. We will conduct weekly forecasting analysis on said datasets using 6 approches listed below:
 
