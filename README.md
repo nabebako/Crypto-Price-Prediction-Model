@@ -2,8 +2,6 @@
 This is a high school project for year 11 computer class:
 choose one or several of your favorite cryptocurrencies.  Develop a couple of mathematical models in python which attempt to predict the future prices of these cryptocurrencies.  After your models have been developed, run your program every day for up to one week.  Collect data in regards to how close each model was to correctly predicting the cryptocurrency price.  Write a report discussing the pros and cons of your models.  Discuss which model performed the best.
 
--------
-
 # Cryptoprice Modelling Objective
 
 We will try to assert the accuracy of various models when doing analysis on crypto prices. We had gathered four datasets from <a href = "https://www.coindesk.com">CoinDesk</a>: ADA, ETH, DOGE, and SOL, each having differnt trends and volitility. We will conduct weekly forecasting analysis on said datasets using 6 approches listed below:
@@ -24,7 +22,6 @@ We will try to assert the accuracy of various models when doing analysis on cryp
 Implementation will be done using python in Jupyter Notebook in combination with third party libraries: pandas, NumPy, Matplotlib, scikit-learn, statsmodels, and prophet.
 We will measure accuracy using two methods. One measures the mean absolute precentage error (MAPE) on a 70:30 train-test-split ratio datasets with rolling forecasting - refitting modes every time a new day is predicted with that day's values. The other measures the accuracy accross the span of 2 weeks and compare each model with one another also using MAPE as the metric.
 
----
 # Analysis Results
 
 MAPE Chart using 70:30 train-test ratio
