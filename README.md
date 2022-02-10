@@ -9,19 +9,19 @@ Choose one or several of your favorite cryptocurrencies.  Develop a couple of ma
 
 Find data, it might be more interesting to find data for less popular coins.  A lot of sophisticated models will already exist for Bitcoin/ Ethereum.   It would be more exciting to model coins like ravencoin or presearch.  It is important to collect enough data.  It will probably be best to find/collect several months worth of data and then do weekly forecasting.
 
-Choose 3-4 mathematical prediction models and a control:
+Prediction models and a control:
 
 - Control - The control will simply predict that the future cryptocurrency price on a given day will be the same as the price 7 days (1 week) prior.  
 
-- Polynomial Regression - you can use your data to build a linear or polynomial regression line.  Use this line to predict future values.
+- Polynomial Regression - a linear or polynomial regression line.  Use this line to predict future values.
 
-- KNN Regression - We learned how to implement the knn algorithm in class, you can actually use this algorithm to predict the future.
+- KNN Regression - We learned how to implement the knn algorithm in class.
 
-- Facebook's Prophet (local Bayesian structural time series model) - This is a python package that you can install.  
+- Facebook's Prophet (local Bayesian structural time series model) - This is a python package that can be install.  
 
-- ARIMA - Auto Regressive Integrated Moving Average.  An example.
+- ARIMA - Auto Regressive Integrated Moving Average.
 
-- ADABOOST Regression - I have heard of state of the art forecasting using this method.  I'm not sure how complicated this will be to implement.
+- ADABOOST Regression - Adaptive boost
 
 
 Start implementing each model in python.
@@ -29,14 +29,6 @@ Start implementing each model in python.
 Use models to generate 1-2 weeks of predictions.
 
 After 1-2 weeks have passed, analyze how well each model did at predicting the value.
-
-Create a Google Slides presentation.  Your presentation should include:
-
-1. Overview of the project, why it is interesting, how it can be useful in the real world.
-2. Explanation of how each model you used in the project works.
-3. Explanation of the data, what data points are in your data set?  How was the data collected?
-4. Analysis of data: show graphs and calculations.
-5. Conclusions:  which model performs the best.  How could you improve your project? What lessons did you learn?
 
 
 ---
