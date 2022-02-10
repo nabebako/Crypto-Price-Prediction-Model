@@ -7,34 +7,28 @@ Choose one or several of your favorite cryptocurrencies.  Develop a couple of ma
 
 # Cryptoprice modelling Objective
 
-Find data, it might be more interesting to find data for less popular coins.  A lot of sophisticated models will already exist for Bitcoin/ Ethereum.   It would be more exciting to model coins like ravencoin or presearch.  It is important to collect enough data.  It will probably be best to find/collect several months worth of data and then do weekly forecasting.
+We will try to assert the accuracy of various models when doing analysis on crypto prices. We had gathered four datasets from <a href = "https://www.coindesk.com">CoinDesk</a>: ADA, ETH, DOGE, and SOL, each having differnt trends and volitility. We will conduct weekly forecasting analysis on said datasets using 6 approches listed below:
 
-Prediction models and a control:
+- Control - predict based on prices from a week prior.
 
-- Control - The control will simply predict that the future cryptocurrency price on a given day will be the same as the price 7 days (1 week) prior.  
+- Polynomial regression - a linear or polynomial regression line use predict future values.
 
-- Polynomial Regression - a linear or polynomial regression line.  Use this line to predict future values.
+- KNN (k-nearest neighbors) regression - uses similar traits of a given day to determine prices.
 
-- KNN Regression - We learned how to implement the knn algorithm in class.
+- Facebook's Prophet (local Bayesian structural time series model).
 
-- Facebook's Prophet (local Bayesian structural time series model) - This is a python package that can be install.  
+- ARIMA (Autoregressive integrated moving average) - consider correlation of lags (passed values) to predicts values.
 
-- ARIMA - Auto Regressive Integrated Moving Average.
-
-- ADABOOST Regression - Adaptive boost
+- AdaBoost (Adaptive boost) regression - a collection of weak learners that cover each other weaknesses.
 
 
-Start implementing each model in python.
-
-Use models to generate 1-2 weeks of predictions.
-
-After 1-2 weeks have passed, analyze how well each model did at predicting the value.
-
+Implementation will be done using python in Jupyter Notebook in combination with third party libraries: pandas, NumPy, Matplotlib, scikit-learn, statsmodels, and prophet.
+We will measure accuracy using two methods. One measures the mean absolute precentage error (MAPE) on a 70:30 train-test-split ratio datasets with rolling forecasting - refitting modes every time a new day is predicted with that day's values. The other measures the accuracy accross the span of 2 weeks and compare each model with one another also using MAPE as the metric.
 
 ---
 # Analysis Results
 
-Mean Absolute Percentage Error Chart using 70:30 train-test ratio
+MAPE Chart using 70:30 train-test ratio
 
 | Coin                  | ADA                   | ETH                   | DOGE                  | SOL                   |
 | --------------------- | --------------------- | --------------------- | --------------------- | --------------------- |
@@ -42,6 +36,3 @@ Mean Absolute Percentage Error Chart using 70:30 train-test ratio
 | Polynomial Regression | -                     | 6.82 %                | -                     | -                     |
 | KNN Regression        | 1.36%                 | 1.83%                 | 1.44%                 | 1.93%                 |
 | Adaboost Regression   | ~ 3.95%               | ~ 5.58%               | ~ 7.64%               | ~ 4.55%               |
-
-
-Data gathered from <a href = "https://www.coindesk.com/">CoinDesk</a>
