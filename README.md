@@ -29,7 +29,7 @@ MAPE Chart using 70:30 train-test ratio
 | Coin                  | ADA                   | ETH                   | DOGE                  | SOL                   |
 |-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
 | ARIMA                 | 3.46%                 | 4.0%                  | 3.62%                 | 3.46%                 |
-| Polynomial Regression | -                     | 6.82%                 | -                     | -                     |
+| Polynomial Regression | 3.89%                 | 4.87%                 | 4.47%                 | 4.68%                 |
 | KNN Regression        | 1.36%                 | 1.83%                 | 1.44%                 | 1.93%                 |
 | Adaboost Regression   | ~ 3.95%               | ~ 5.58%               | ~ 7.64%               | ~ 4.55%               |
 | Facebook Prophet      | -                     | -                     | -                     | -                     |
