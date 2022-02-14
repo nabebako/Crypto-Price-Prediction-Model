@@ -6,7 +6,7 @@ choose one or several of your favorite cryptocurrencies.  Develop a couple of ma
 
 We will try to assert the accuracy of various models when doing analysis on crypto prices. We had gathered four datasets from <a href = "https://www.coindesk.com">CoinDesk</a>: ADA, ETH, DOGE, and SOL, each having differnt trends and volitility. We will conduct weekly forecasting analysis on said datasets using 6 approches listed below:
 
-- Control - predicts based on prices from a specific window of time prior.
+- Baseline - a simple model that predicts based on prices from a specific window of time prior.
 
 - Polynomial regression - a linear or polynomial regression line use predict future values.
 
@@ -33,6 +33,6 @@ MAPE Chart using 70:30 train-test ratio
 | KNN Regression        | 1.36%                 | 1.83%                 | 1.44%                 | 1.93%                 |
 | Adaboost Regression   | ~ 3.95%               | ~ 5.58%               | ~ 7.64%               | ~ 4.55%               |
 | Facebook Prophet      | -                     | -                     | -                     | -                     |
-| Control (baseline)    | 4.94%                 | 6.38%                 | 8.93%                 | 6.80%                 |
+| Baseline              | 4.94%                 | 6.38%                 | 8.93%                 | 6.80%                 |
 
 Data gathered from <a href = "https://www.coindesk.com/">CoinDesk</a>
