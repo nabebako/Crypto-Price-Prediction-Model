@@ -12,8 +12,6 @@ We will try to assert the accuracy of various models when doing analysis on cryp
 
 - KNN (k-nearest neighbors) regression - uses similar traits of a given day to determine prices.
 
-- Facebook's Prophet (local Bayesian structural time series model).
-
 - ARIMA (Autoregressive integrated moving average) - consider correlation of lags (passed values) to predicts values.
 
 - AdaBoost (Adaptive boost) regression - a collection of weak learners that cover each other weaknesses.
@@ -24,7 +22,7 @@ We will measure accuracy using two methods. One measures the mean absolute prece
 
 # Analysis Results
 
-MAPE Chart using 70:30 train-test ratio
+Mean absolute percentage error chart using 70:30 train-test ratio
 
 | Coin                  | ADA                   | ETH                   | DOGE                  | SOL                   |
 |-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
@@ -32,7 +30,6 @@ MAPE Chart using 70:30 train-test ratio
 | Polynomial Regression | 3.89%                 | 4.87%                 | 4.47%                 | 4.68%                 |
 | KNN Regression        | 1.36%                 | 1.83%                 | 1.44%                 | 1.93%                 |
 | Adaboost Regression   | ~ 3.95%               | ~ 5.58%               | ~ 7.64%               | ~ 4.55%               |
-| Facebook Prophet      | -                     | -                     | -                     | -                     |
 | Baseline              | 4.94%                 | 6.38%                 | 8.93%                 | 6.80%                 |
 
 Data gathered from <a href = "https://www.coindesk.com/">CoinDesk</a>
